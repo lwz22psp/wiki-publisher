@@ -1,4 +1,4 @@
 FROM nginx
-WORKDIR /usr/share/nginx/html
-ADD ~/wikipage/. /usr/share/nginx/html
+WORKDIR ~/wikipage
+ADD ~/wikipage/. ~/wikipage
 EXPOSE 8082
