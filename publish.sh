@@ -7,7 +7,7 @@ gitbook build
 cd ~/github/wiki-publisher
 
 rm -rf wikipage
-cp -rf _book/. wikipage
+cp -rf ~/github/wiki/_book/. wikipage
 
 
 
